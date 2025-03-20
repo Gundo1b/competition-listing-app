@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/competition-listing-app/static/css/main.10eb6275.css",
+    "main.js": "/competition-listing-app/static/js/main.39a9e585.js",
+    "static/js/453.a7f8e586.chunk.js": "/competition-listing-app/static/js/453.a7f8e586.chunk.js",
+    "index.html": "/competition-listing-app/index.html",
+    "main.10eb6275.css.map": "/competition-listing-app/static/css/main.10eb6275.css.map",
+    "main.39a9e585.js.map": "/competition-listing-app/static/js/main.39a9e585.js.map",
+    "453.a7f8e586.chunk.js.map": "/competition-listing-app/static/js/453.a7f8e586.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10eb6275.css",
+    "static/js/main.39a9e585.js"
+  ]
+}
