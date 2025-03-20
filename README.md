@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+Competition Listing App
+A simple React-based prototype that displays a list of competitions, allows filtering by category, and provides an "Enter Competition" feature.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+✔️ Display a list of competitions in a modern, dark-themed UI
+✔️ Filter competitions by category
+✔️ View details of each competition
+✔️ Enter competition with a button click
+✔️ Automatically exclude expired competitions (Bonus feature)
 
-## Available Scripts
+                           Installation & Setup
 
-In the project directory, you can run:
+1. Clone the Repository
+   bash
+   Copy
+   Edit
+   git clone https://github.com/your-username/competition-listing-app.git
+   cd competition-listing-app
 
-### `npm start`
+2. Install Dependencies
+   bash
+   Copy
+   Edit
+   npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. Start the Development Server
+   bash
+   Copy
+   Edit
+   npm start
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The app will be available at http://localhost:3000/.
 
-### `npm test`
+Project Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+competition-listing-app/
+│── src/
+│ ├── components/
+│ │ ├── CompetitionList.js # Displays the competition list
+│ │ ├── Filter.js # Dropdown filter for categories
+│ ├── data.js # Sample competition data
+│ ├── App.js # Main entry point
+│ ├── styles.css # Styling for the UI
+│── public/
+│── package.json
+│── README.md
 
-### `npm run build`
+Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+React – Frontend framework
+CSS – Styled with modern dark UI
+JavaScript (ES6) – For functionality
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+How to Use
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Select a competition category from the filter dropdown.
+Click "Enter Competition" to simulate joining a competition.
+Expired competitions are automatically excluded.
+Upcoming Enhancements
+🔹 Add animations for smoother UI interactions
+🔹 Implement search functionality for quick filtering
+🔹 Store user-entered competitions in local storage
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🎉 Enjoy the app! 🚀
